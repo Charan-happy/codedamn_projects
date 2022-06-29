@@ -1,0 +1,114 @@
+<!--our challenge is to build out this project and get it looking as close to the design as possible.
+
+You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+
+Your project should:
+
+Be responsive for desktop and mobile phones
+Have minimum functionalities and effects working-->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+		<title>Eventually Landing Page</title>
+        <style>
+            *{
+                margin:0;
+                padding:0;
+                box-sizing:border-box;
+            }
+            body{
+                font-family:Roboto, sans-serif;
+                width:100vw;
+                height:100vh;
+                background-image: linear-gradient(to right, rgba(
+               0,0,0,1), rgba(
+                  0,0,0, 0.58)), url('\assets\images\Townview.jpg');
+                background-position:center;
+                background-size:cover;
+                background-repeat:no-repeat;
+                color: white;
+            }
+
+.container{
+    width:490px;
+    height:400px;
+    padding-left:50px;
+    padding-top:220px;
+}
+form{
+    margin-top:25px;
+}
+.text{
+    width:240px;
+    height:30px;
+    background: none;
+    outline:none;
+    border:1px solid gray;
+    padding-left:8px;
+    border-radius:5px;
+}
+.btn{
+    width:60px;
+    height:30px;
+    color:white;
+    background:#1cb495;
+    border:none;
+    border-radius:5px;
+}
+
+.footer{
+    padding-top:150px;
+    color:gray;
+}
+.icons i{
+    margin-right:10px;
+}
+.copyright{
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 600px){
+    .container{
+        width:100vw;
+        padding-top:170px;
+    }
+    .footer{
+        padding-top:70px;
+    }
+    
+}
+
+       </style>
+	</head>
+	<body>
+        <div class="container">
+            <h1 style="font-size:52px;">Eventually</h1>
+            <p style="margin-top:30px; font-size:18px;line-height:26px; color:gray">A simple template for telling the world you'll launch your next big thing. Brought to you by HTML5 UP.</p>
+<form>
+    <input type="text" class="text" placeholder="Email Address">
+<input type="submit" class="btn" value="Sign up">
+    </form>
+
+<div class="footer">
+    <div class="icons">
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-github"></i>
+        <i class="fa-solid fa-envelope"></i>
+    </div>
+    <div class="copyright">
+  <span> © Untitled.</span>
+  <span>Credits: Unsplash + HTML5 UP</span>
+
+
+    </div>
+</div>
+        </div>
+
+		
+	</body>
+</html>
